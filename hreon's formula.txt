@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main(){
+     float a,b,c,s;
+     printf("enter value of side1,side2,side3:");
+     scanf("%f%f%f",&a,&b,&c);
+    s=(a+b+c)/2;
+    printf("the area of triangle is:%f",s);
+}
